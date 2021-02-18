@@ -41,6 +41,67 @@ h3
 {    
     color: rgb(32, 141, 90);
 }
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-bottom: 1px,solid #1e3642;
+    margin-bottom: 6%;
+}
+td,th{
+    padding: 5px 10px;
+    text-align: center;
+}
+th{
+    font-weight: bold;
+    color: #1e3642;
+}
+thead tr{
+    border-bottom: 2px solid #1e3642;
+}
+tbody th{
+    border-right: 2px solid #1e3642;
+    text-align: right;
+    border-left: 2px solid #1e3642;
+}
+td{
+    background-color: #ee7a7a;    
+    border-right: 1px solid #1e3642;
+    border-left: 1px solid #1e3642;
+}
+tr.even td{
+   background-color: #ee7a7a; 
+}
+table.striped{
+    border-collapse: collapse;
+    border-spacing: 10px;
+    border-bottom: 1px,solid #1e3642;
+}
+table.striped td, table.striped th{
+    padding: 3px, 10px;
+    text-align: center;
+}
+table.striped th{
+    font-weight: bold;
+    color: #1e3642;
+    border-right: 1px solid #1e3642;
+    text-align: right;
+    border-left:1px solid #1e3642;
+    border-top: 1px solid #1e3642;
+}
+table.striped thead tr{
+    border-bottom: 1px,solid #1e3642;
+}
+table.striped thead th{
+    border-right: 1px solid #1e3642;
+    text-align: right;
+}
+table.striped td{
+    background-color: #ee7a7a;
+    border-bottom: 1px solid #1e3642;
+}
+table.striped tr.even td{
+    background-color: #ee7a7a;
+}
 
 
 
