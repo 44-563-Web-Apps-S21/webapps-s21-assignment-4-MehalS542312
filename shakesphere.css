@@ -1,0 +1,47 @@
+body {
+    color: black;
+    background: #04e3eb;
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Benne', serif;
+    
+  }
+
+h1,h2
+{
+   font-family: 'Benne', serif;
+   color: black;
+    text-align: center;
+}
+h3
+{
+   font-family: 'Benne', serif;
+   color: black;
+}  
+  
+  .nav {
+    font-family: sans-serif;
+  }
+ 
+  p:hover {
+  background-color: #04e3eb;
+  font-family: 'Benne', serif;
+  font-family: 'Crimson Text', serif;
+}
+.aegeon
+{    
+    color: rgb(205, 90, 176);
+}
+.duke-solinus
+{    
+    color: rgb(63, 163, 38);
+}
+.gaoelr
+{    
+    color: rgb(32, 141, 90);
+}
+
+
+
+
